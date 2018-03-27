@@ -1,0 +1,48 @@
+PODS:
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - TaboolaSDK (1.6.17)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - TaboolaSDK
+  - Texture (from `https://github.com/TextureGroup/Texture.git`)
+
+EXTERNAL SOURCES:
+  Texture:
+    :git: https://github.com/TextureGroup/Texture.git
+
+CHECKOUT OPTIONS:
+  Texture:
+    :commit: 2b12654810fe579fa5909d20828574fe0a499ac0
+    :git: https://github.com/TextureGroup/Texture.git
+
+SPEC CHECKSUMS:
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  TaboolaSDK: 50f73ca7066533f276e0d5c7470023b414a3e03d
+  Texture: e907f0370006ed790b4b82427e3000ce8bd5b0d3
+
+PODFILE CHECKSUM: 661ca56fb7eb170c89190553dc8317ab799331c4
+
+COCOAPODS: 1.4.0
