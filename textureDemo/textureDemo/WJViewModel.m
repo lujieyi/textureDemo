@@ -21,10 +21,8 @@ static WJViewModel *instance;
     });
     return instance;
 }
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
+-(NSMutableArray<NSMutableArray<NSString *> *> *)data{
+    if (_data == nil) {
         //初始化数据
         NSMutableArray *sectionArray = [NSMutableArray array];
         for(int i = 0 ; i<30 ;i++){
@@ -36,6 +34,12 @@ static WJViewModel *instance;
         }
         _data = sectionArray;
     }
-    return self;
+    return _data;
+}
+-(NSMutableArray<NSString *> *)demos{
+    if (_demos == nil) {
+        _demos = [[NSMutableArray alloc]initWithObjects:@"taboola广告测试",@"ASNetworkImageNode测试",@"ASCollectionView测试",@"UICollectionView排序测试", nil];
+    }
+    return _demos;
 }
 @end

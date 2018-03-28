@@ -14,6 +14,7 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.13):
     - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
+  - SVProgressHUD (2.2.5)
   - TaboolaSDK (1.6.17)
   - Texture (2.6):
     - Texture/PINRemoteImage (= 2.6)
@@ -24,25 +25,32 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
   - TaboolaSDK
   - Texture (from `https://github.com/TextureGroup/Texture.git`)
 
 EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
   Texture:
     :git: https://github.com/TextureGroup/Texture.git
 
 CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 7f676d51905ede045ca5dcaf82d4ba0d9f96addf
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
   Texture:
-    :commit: 2b12654810fe579fa5909d20828574fe0a499ac0
+    :commit: 7f01b89ddcb78f2a8e8c47904c0ab2308b3fffc1
     :git: https://github.com/TextureGroup/Texture.git
 
 SPEC CHECKSUMS:
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TaboolaSDK: 50f73ca7066533f276e0d5c7470023b414a3e03d
   Texture: e907f0370006ed790b4b82427e3000ce8bd5b0d3
 
-PODFILE CHECKSUM: 661ca56fb7eb170c89190553dc8317ab799331c4
+PODFILE CHECKSUM: 07929abe1a2dce7bda28b501e7ef3d5b9bbe0ece
 
 COCOAPODS: 1.4.0

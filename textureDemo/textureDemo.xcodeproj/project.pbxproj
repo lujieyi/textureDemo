@@ -19,6 +19,11 @@
 		8737351620648DF800681CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737351520648DF800681CD8 /* main.m */; };
 		8737351D2064D0B100681CD8 /* sampleContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351C2064D0B100681CD8 /* sampleContentPage.html */; };
 		8737351F2064D0DE00681CD8 /* sampleFeedContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */; };
+		87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */; };
+		87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */; };
+		87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */; };
+		87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE692A206B3FA3003F16EB /* UICollectionViewTestViewController.m */; };
+		87FE692E206B810B003F16EB /* WJActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE692D206B810B003F16EB /* WJActivityView.m */; };
 		99469DE7609A26D74B7F2460 /* libPods-textureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D30C19D64865AAE2AC022 /* libPods-textureDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +49,16 @@
 		8737351520648DF800681CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8737351C2064D0B100681CD8 /* sampleContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleContentPage.html; sourceTree = "<group>"; };
 		8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleFeedContentPage.html; sourceTree = "<group>"; };
+		87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaboolaTestViewController.h; sourceTree = "<group>"; };
+		87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaboolaTestViewController.m; sourceTree = "<group>"; };
+		87FE6921206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureTestASNetworkImageNodeViewController.h; sourceTree = "<group>"; };
+		87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureTestASNetworkImageNodeViewController.m; sourceTree = "<group>"; };
+		87FE6925206B3F6C003F16EB /* ASCollectionViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCollectionViewTestViewController.h; sourceTree = "<group>"; };
+		87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCollectionViewTestViewController.m; sourceTree = "<group>"; };
+		87FE6929206B3FA3003F16EB /* UICollectionViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewTestViewController.h; sourceTree = "<group>"; };
+		87FE692A206B3FA3003F16EB /* UICollectionViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewTestViewController.m; sourceTree = "<group>"; };
+		87FE692C206B810B003F16EB /* WJActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJActivityView.h; sourceTree = "<group>"; };
+		87FE692D206B810B003F16EB /* WJActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJActivityView.m; sourceTree = "<group>"; };
 		9D0EF17172154C3A5833F595 /* Pods-textureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CF7D30C19D64865AAE2AC022 /* libPods-textureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,14 +100,16 @@
 				8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */,
 				8737350320648DF800681CD8 /* AppDelegate.h */,
 				8737350420648DF800681CD8 /* AppDelegate.m */,
+				87FE692C206B810B003F16EB /* WJActivityView.h */,
+				87FE692D206B810B003F16EB /* WJActivityView.m */,
 				8737350620648DF800681CD8 /* ViewController.h */,
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
-				8722BFEA2068962A00FBB272 /* WJCollectionViewCell.h */,
-				8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */,
-				8722BFED206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.h */,
-				8722BFEE206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m */,
+				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
+				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
+				87FE6924206B3F2D003F16EB /* ASCollectionViewTestViewController */,
+				87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */,
 				8737350920648DF800681CD8 /* Main.storyboard */,
 				8737350F20648DF800681CD8 /* Assets.xcassets */,
 				8737351120648DF800681CD8 /* LaunchScreen.storyboard */,
@@ -102,6 +119,46 @@
 				8722BFF32068B7C300FBB272 /* PrefixHeader.pch */,
 			);
 			path = textureDemo;
+			sourceTree = "<group>";
+		};
+		87FE691F206B3EA5003F16EB /* Taboola广告测试 */ = {
+			isa = PBXGroup;
+			children = (
+				87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */,
+				87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */,
+			);
+			path = "Taboola广告测试";
+			sourceTree = "<group>";
+		};
+		87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */ = {
+			isa = PBXGroup;
+			children = (
+				87FE6921206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.h */,
+				87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */,
+			);
+			path = "ASNetworkImageNode测试";
+			sourceTree = "<group>";
+		};
+		87FE6924206B3F2D003F16EB /* ASCollectionViewTestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87FE6925206B3F6C003F16EB /* ASCollectionViewTestViewController.h */,
+				87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */,
+			);
+			path = ASCollectionViewTestViewController;
+			sourceTree = "<group>";
+		};
+		87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */ = {
+			isa = PBXGroup;
+			children = (
+				87FE6929206B3FA3003F16EB /* UICollectionViewTestViewController.h */,
+				87FE692A206B3FA3003F16EB /* UICollectionViewTestViewController.m */,
+				8722BFEA2068962A00FBB272 /* WJCollectionViewCell.h */,
+				8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */,
+				8722BFED206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.h */,
+				8722BFEE206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m */,
+			);
+			path = "UICollectionView排序实现";
 			sourceTree = "<group>";
 		};
 		C6D29F4BB637AAB49E00659F /* Frameworks */ = {
@@ -215,10 +272,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaboolaVIewResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */,
 				8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */,
 				8737350E20648DF800681CD8 /* textureDemo.xcdatamodeld in Sources */,
 				8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */,
+				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
+				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
 				8737351620648DF800681CD8 /* main.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
+				87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */,
+				87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface WJViewModel : NSObject
-@property (nonatomic,strong)NSMutableArray<NSMutableArray<NSString*>*> *data;
 +(instancetype)sharedModel;
+//UICollectionViewTestViewController的数据
+@property (nonatomic,strong)NSMutableArray<NSMutableArray<NSString*>*> *data;
+//ViewController的数据
+@property (nonatomic,strong)NSMutableArray<NSString *> *demos;
 @end
