@@ -8,5 +8,7 @@ target 'textureDemo' do
   # Pods for textureDemo
 	pod 'Texture',:git=>'https://github.com/TextureGroup/Texture.git'
 	pod 'TaboolaSDK'
-    pod 'SVProgressHUD',:git=>'https://github.com/SVProgressHUD/SVProgressHUD.git'
+        pod 'SVProgressHUD',:git=>'https://github.com/SVProgressHUD/SVProgressHUD.git'
+	pod 'YTKNetwork',:git=>'https://github.com/yuantiku/YTKNetwork.git'
+	pod 'DKNightVersion',:git=>'https://github.com/Draveness/DKNightVersion.git'
 end

@@ -38,7 +38,7 @@ static WJViewModel *instance;
 }
 -(NSMutableArray<NSString *> *)demos{
     if (_demos == nil) {
-        _demos = [[NSMutableArray alloc]initWithObjects:@"taboola广告测试",@"ASNetworkImageNode测试",@"ASCollectionView测试",@"UICollectionView排序测试", nil];
+        _demos = [[NSMutableArray alloc]initWithObjects:@"taboola广告测试",@"ASNetworkImageNode测试",@"ASCollectionView测试",@"UICollectionView排序测试",@"YTKNetwork测试",@"DKNightVersion测试", nil];
     }
     return _demos;
 }

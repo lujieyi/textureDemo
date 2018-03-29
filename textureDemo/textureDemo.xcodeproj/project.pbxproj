@@ -96,27 +96,25 @@
 		8737350220648DF800681CD8 /* textureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8737351C2064D0B100681CD8 /* sampleContentPage.html */,
-				8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */,
 				8737350320648DF800681CD8 /* AppDelegate.h */,
 				8737350420648DF800681CD8 /* AppDelegate.m */,
-				87FE692C206B810B003F16EB /* WJActivityView.h */,
-				87FE692D206B810B003F16EB /* WJActivityView.m */,
+				8722BFF32068B7C300FBB272 /* PrefixHeader.pch */,
+				87FE692F206B9DDD003F16EB /* 工具类 */,
 				8737350620648DF800681CD8 /* ViewController.h */,
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
 				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
-				87FE6924206B3F2D003F16EB /* ASCollectionViewTestViewController */,
+				87FE6924206B3F2D003F16EB /* ASCollectionView测试 */,
 				87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */,
+				87FE6930206BA558003F16EB /* 翻页实现 */,
 				8737350920648DF800681CD8 /* Main.storyboard */,
 				8737350F20648DF800681CD8 /* Assets.xcassets */,
 				8737351120648DF800681CD8 /* LaunchScreen.storyboard */,
 				8737351420648DF800681CD8 /* Info.plist */,
 				8737351520648DF800681CD8 /* main.m */,
 				8737350C20648DF800681CD8 /* textureDemo.xcdatamodeld */,
-				8722BFF32068B7C300FBB272 /* PrefixHeader.pch */,
 			);
 			path = textureDemo;
 			sourceTree = "<group>";
@@ -124,6 +122,8 @@
 		87FE691F206B3EA5003F16EB /* Taboola广告测试 */ = {
 			isa = PBXGroup;
 			children = (
+				8737351C2064D0B100681CD8 /* sampleContentPage.html */,
+				8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */,
 				87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */,
 				87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */,
 			);
@@ -139,13 +139,13 @@
 			path = "ASNetworkImageNode测试";
 			sourceTree = "<group>";
 		};
-		87FE6924206B3F2D003F16EB /* ASCollectionViewTestViewController */ = {
+		87FE6924206B3F2D003F16EB /* ASCollectionView测试 */ = {
 			isa = PBXGroup;
 			children = (
 				87FE6925206B3F6C003F16EB /* ASCollectionViewTestViewController.h */,
 				87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */,
 			);
-			path = ASCollectionViewTestViewController;
+			path = "ASCollectionView测试";
 			sourceTree = "<group>";
 		};
 		87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */ = {
@@ -159,6 +159,22 @@
 				8722BFEE206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m */,
 			);
 			path = "UICollectionView排序实现";
+			sourceTree = "<group>";
+		};
+		87FE692F206B9DDD003F16EB /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				87FE692C206B810B003F16EB /* WJActivityView.h */,
+				87FE692D206B810B003F16EB /* WJActivityView.m */,
+			);
+			path = "工具类";
+			sourceTree = "<group>";
+		};
+		87FE6930206BA558003F16EB /* 翻页实现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "翻页实现";
 			sourceTree = "<group>";
 		};
 		C6D29F4BB637AAB49E00659F /* Frameworks */ = {
@@ -272,11 +288,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo-resources.sh",
+				"${PODS_ROOT}/DKNightVersion/DKNightVersion/ColorTable/DKColorTable.txt",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKColorTable.txt",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaboolaVIewResources.bundle",
 			);
