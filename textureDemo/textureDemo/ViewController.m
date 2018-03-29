@@ -14,6 +14,7 @@
 #import "TaboolaTestViewController.h"
 #import "ASCollectionViewTestViewController.h"
 #import "UICollectionViewTestViewController.h"
+#import "ASPagerNodeViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @end
 

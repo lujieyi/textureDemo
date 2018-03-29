@@ -19,6 +19,9 @@
 		8737351620648DF800681CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737351520648DF800681CD8 /* main.m */; };
 		8737351D2064D0B100681CD8 /* sampleContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351C2064D0B100681CD8 /* sampleContentPage.html */; };
 		8737351F2064D0DE00681CD8 /* sampleFeedContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */; };
+		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
+		875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53C8206D04E5006B064B /* YTKNetworkViewController.m */; };
+		875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53CB206D0502006B064B /* DKNightVersionViewController.m */; };
 		87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */; };
 		87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */; };
 		87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */; };
@@ -49,6 +52,12 @@
 		8737351520648DF800681CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8737351C2064D0B100681CD8 /* sampleContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleContentPage.html; sourceTree = "<group>"; };
 		8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleFeedContentPage.html; sourceTree = "<group>"; };
+		875C53BE206D026F006B064B /* ASPagerNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASPagerNodeViewController.h; sourceTree = "<group>"; };
+		875C53BF206D026F006B064B /* ASPagerNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPagerNodeViewController.m; sourceTree = "<group>"; };
+		875C53C7206D04E5006B064B /* YTKNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkViewController.h; sourceTree = "<group>"; };
+		875C53C8206D04E5006B064B /* YTKNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkViewController.m; sourceTree = "<group>"; };
+		875C53CA206D0502006B064B /* DKNightVersionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNightVersionViewController.h; sourceTree = "<group>"; };
+		875C53CB206D0502006B064B /* DKNightVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNightVersionViewController.m; sourceTree = "<group>"; };
 		87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaboolaTestViewController.h; sourceTree = "<group>"; };
 		87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaboolaTestViewController.m; sourceTree = "<group>"; };
 		87FE6921206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureTestASNetworkImageNodeViewController.h; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 				8737350320648DF800681CD8 /* AppDelegate.h */,
 				8737350420648DF800681CD8 /* AppDelegate.m */,
 				8722BFF32068B7C300FBB272 /* PrefixHeader.pch */,
+				8737350920648DF800681CD8 /* Main.storyboard */,
+				8737350F20648DF800681CD8 /* Assets.xcassets */,
+				8737351120648DF800681CD8 /* LaunchScreen.storyboard */,
+				8737351420648DF800681CD8 /* Info.plist */,
+				8737351520648DF800681CD8 /* main.m */,
+				8737350C20648DF800681CD8 /* textureDemo.xcdatamodeld */,
 				87FE692F206B9DDD003F16EB /* 工具类 */,
 				8737350620648DF800681CD8 /* ViewController.h */,
 				8737350720648DF800681CD8 /* ViewController.m */,
@@ -108,15 +123,39 @@
 				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
 				87FE6924206B3F2D003F16EB /* ASCollectionView测试 */,
 				87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */,
-				87FE6930206BA558003F16EB /* 翻页实现 */,
-				8737350920648DF800681CD8 /* Main.storyboard */,
-				8737350F20648DF800681CD8 /* Assets.xcassets */,
-				8737351120648DF800681CD8 /* LaunchScreen.storyboard */,
-				8737351420648DF800681CD8 /* Info.plist */,
-				8737351520648DF800681CD8 /* main.m */,
-				8737350C20648DF800681CD8 /* textureDemo.xcdatamodeld */,
+				875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */,
+				875C53C5206D0479006B064B /* YTKNetwork测试 */,
+				875C53C6206D0487006B064B /* DKNightVersion测试 */,
 			);
 			path = textureDemo;
+			sourceTree = "<group>";
+		};
+		875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */ = {
+			isa = PBXGroup;
+			children = (
+				875C53BE206D026F006B064B /* ASPagerNodeViewController.h */,
+				875C53BF206D026F006B064B /* ASPagerNodeViewController.m */,
+			);
+			path = "ASPagerNoder带ASTableNode翻页";
+			sourceTree = "<group>";
+		};
+		875C53C5206D0479006B064B /* YTKNetwork测试 */ = {
+			isa = PBXGroup;
+			children = (
+				875C53C7206D04E5006B064B /* YTKNetworkViewController.h */,
+				875C53C8206D04E5006B064B /* YTKNetworkViewController.m */,
+			);
+			path = "YTKNetwork测试";
+			sourceTree = "<group>";
+		};
+		875C53C6206D0487006B064B /* DKNightVersion测试 */ = {
+			isa = PBXGroup;
+			children = (
+				875C53CA206D0502006B064B /* DKNightVersionViewController.h */,
+				875C53CB206D0502006B064B /* DKNightVersionViewController.m */,
+			);
+			name = "DKNightVersion测试";
+			path = "../DKNightVersion测试";
 			sourceTree = "<group>";
 		};
 		87FE691F206B3EA5003F16EB /* Taboola广告测试 */ = {
@@ -168,13 +207,6 @@
 				87FE692D206B810B003F16EB /* WJActivityView.m */,
 			);
 			path = "工具类";
-			sourceTree = "<group>";
-		};
-		87FE6930206BA558003F16EB /* 翻页实现 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "翻页实现";
 			sourceTree = "<group>";
 		};
 		C6D29F4BB637AAB49E00659F /* Frameworks */ = {
@@ -328,12 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */,
+				875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */,
 				87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */,
 				8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */,
 				8737350E20648DF800681CD8 /* textureDemo.xcdatamodeld in Sources */,
 				8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */,
 				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
+				875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
 				8737351620648DF800681CD8 /* main.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
