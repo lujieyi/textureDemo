@@ -21,6 +21,7 @@
 		8737351D2064D0B100681CD8 /* sampleContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351C2064D0B100681CD8 /* sampleContentPage.html */; };
 		8737351F2064D0DE00681CD8 /* sampleFeedContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */; };
 		874761B32071C7D9004F4023 /* ItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 874761B12071C7D9004F4023 /* ItemNode.m */; };
+		8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */; };
 		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
 		875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53C8206D04E5006B064B /* YTKNetworkViewController.m */; };
 		875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53CB206D0502006B064B /* DKNightVersionViewController.m */; };
@@ -58,6 +59,8 @@
 		8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleFeedContentPage.html; sourceTree = "<group>"; };
 		874761B12071C7D9004F4023 /* ItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNode.m; sourceTree = "<group>"; };
 		874761B22071C7D9004F4023 /* ItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNode.h; sourceTree = "<group>"; };
+		8756A1E320722FD100990FE2 /* EmbeddedTableNodeCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedTableNodeCellNode.h; sourceTree = "<group>"; };
+		8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedTableNodeCellNode.m; sourceTree = "<group>"; };
 		875C53BE206D026F006B064B /* ASPagerNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASPagerNodeViewController.h; sourceTree = "<group>"; };
 		875C53BF206D026F006B064B /* ASPagerNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPagerNodeViewController.m; sourceTree = "<group>"; };
 		875C53C7206D04E5006B064B /* YTKNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkViewController.h; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 			children = (
 				875C53BE206D026F006B064B /* ASPagerNodeViewController.h */,
 				875C53BF206D026F006B064B /* ASPagerNodeViewController.m */,
+				8756A1E320722FD100990FE2 /* EmbeddedTableNodeCellNode.h */,
+				8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */,
 				874761B22071C7D9004F4023 /* ItemNode.h */,
 				874761B12071C7D9004F4023 /* ItemNode.m */,
 			);
@@ -370,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */,
 				875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */,
 				874761B32071C7D9004F4023 /* ItemNode.m in Sources */,
 				875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */,

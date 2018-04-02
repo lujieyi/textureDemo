@@ -7,30 +7,32 @@
 //
 
 #import "ASPagerNodeViewController.h"
-#import "ItemNode.h"
+
+#import "EmbeddedTableNodeCellNode.h"
 
 @interface ASPagerNodeViewController ()<ASPagerDelegate,ASPagerDataSource>
-
 @end
-
 @implementation ASPagerNodeViewController
-
+{
+    ASPagerNode *_pager;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ASPagerNode *pager  = [[ASPagerNode alloc]init];
+    _pager  = [[ASPagerNode alloc]init];
 //    pager.delegate = self;
-    pager.dataSource = self;
-    pager.frame = self.view.bounds;
-    [self.view addSubnode:pager];
+    _pager.dataSource = self;
+    _pager.frame = self.view.bounds;
+    [self.view addSubnode:_pager];
 }
 #pragma mark - datasource
 - (NSInteger)numberOfPagesInPagerNode:(ASPagerNode *)pagerNode{
     return 20;
 }
 - (ASCellNodeBlock)pagerNode:(ASPagerNode *)pagerNode nodeBlockAtIndex:(NSInteger)index{
+    //注意这句话不能放在block里面
+    CGSize size = CGSizeMake(pagerNode.bounds.size.width, 100);
     return ^{
-        ItemNode *node = [[ItemNode alloc]initWithString:[NSString stringWithFormat:@"index:%lu",index]];
-        node.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
+        ASCellNode *node = [[EmbeddedTableNodeCellNode alloc]initWithElementSize:size];
         return node ;
     };
 }
