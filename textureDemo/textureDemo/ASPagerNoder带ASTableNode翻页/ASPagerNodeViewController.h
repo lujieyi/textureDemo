@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASPagerNodeViewController : UIViewController
+@interface ASPagerNodeViewController : ASViewController
 
 @end
