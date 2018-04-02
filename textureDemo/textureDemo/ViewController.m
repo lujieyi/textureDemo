@@ -15,6 +15,7 @@
 #import "ASCollectionViewTestViewController.h"
 #import "UICollectionViewTestViewController.h"
 #import "ASPagerNodeViewController.h"
+#import "ASPagerNodeViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @end
 
@@ -70,6 +71,13 @@ static NSString *reuseID = @"tableViewCellReuseID";
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
+        case 4:
+        {
+            ASPagerNodeViewController *vc = [[ASPagerNodeViewController alloc]init];
+            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

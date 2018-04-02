@@ -8,7 +8,7 @@
 
 #import "ASPagerNodeViewController.h"
 
-@interface ASPagerNodeViewController ()
+@interface ASPagerNodeViewController ()//<ASPagerDelegate,ASPagerDataSource>
 
 @end
 
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+//    ASPagerNode *pager  = [[ASPagerNode alloc]init];
+//    pager.delegate = self;
+//    pager.dataSource = self;
+//    pager.frame = self.view.bounds;
+//    [self.view addSubnode:pager];
 }
+#pragma mark - datasource
+//- (NSInteger)numberOfPagesInPagerNode:(ASPagerNode *)pagerNode{
+//    return 20;
+//}
 
 @end

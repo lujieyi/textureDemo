@@ -10,6 +10,7 @@
 		8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */; };
 		8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFEE206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m */; };
 		8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFF12068A0DA00FBB272 /* WJViewModel.m */; };
+		87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 87332CD0206E3E2100918014 /* HeaderCellNode.m */; };
 		8737350520648DF800681CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737350420648DF800681CD8 /* AppDelegate.m */; };
 		8737350820648DF800681CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737350720648DF800681CD8 /* ViewController.m */; };
 		8737350B20648DF800681CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8737350920648DF800681CD8 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		8722BFF02068A0DA00FBB272 /* WJViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJViewModel.h; sourceTree = "<group>"; };
 		8722BFF12068A0DA00FBB272 /* WJViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJViewModel.m; sourceTree = "<group>"; };
 		8722BFF32068B7C300FBB272 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		87332CCF206E3E2100918014 /* HeaderCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderCellNode.h; sourceTree = "<group>"; };
+		87332CD0206E3E2100918014 /* HeaderCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderCellNode.m; sourceTree = "<group>"; };
 		8737350020648DF800681CD8 /* textureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8737350320648DF800681CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8737350420648DF800681CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 			children = (
 				87FE6925206B3F6C003F16EB /* ASCollectionViewTestViewController.h */,
 				87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */,
+				87332CCF206E3E2100918014 /* HeaderCellNode.h */,
+				87332CD0206E3E2100918014 /* HeaderCellNode.m */,
 			);
 			path = "ASCollectionView测试";
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
 				875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
+				87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */,
 				8737351620648DF800681CD8 /* main.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
