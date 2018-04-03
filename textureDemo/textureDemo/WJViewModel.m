@@ -38,8 +38,14 @@ static WJViewModel *instance;
 }
 -(NSMutableArray<NSString *> *)demos{
     if (_demos == nil) {
-        _demos = [[NSMutableArray alloc]initWithObjects:@"taboola广告测试",@"ASNetworkImageNode测试",@"ASCollectionView测试",@"UICollectionView排序测试",@"ASPagerNoder带ASTableNode翻页"@"YTKNetwork测试",@"DKNightVersion测试", nil];
+        _demos = [[NSMutableArray alloc]initWithObjects:@"taboola广告测试",@"ASNetworkImageNode测试",@"ASCollectionView测试",@"UICollectionView排序测试",@"ASPagerNoder带ASTableNode翻页",@"TextureLayoutTest",@"YTKNetwork测试",@"DKNightVersion测试", nil];
     }
     return _demos;
+}
+-(NSMutableArray *)ASLayoutDemos{
+    if (_ASLayoutDemos == nil) {
+        _ASLayoutDemos = [[NSMutableArray alloc]initWithObjects:@"ASStackLayoutSpecViewController",@"PhotoWithInsetTextOverlayViewController",@"PhotoWithOutsetIconOverlayViewController",@"FlexibleSeparatorSurroundingContentViewController",@"CornerLayoutExampleViewController",@"UserProfileSampleViewController", nil];
+    }
+    return _ASLayoutDemos;
 }
 @end

@@ -20,6 +20,20 @@
 		8737351620648DF800681CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737351520648DF800681CD8 /* main.m */; };
 		8737351D2064D0B100681CD8 /* sampleContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351C2064D0B100681CD8 /* sampleContentPage.html */; };
 		8737351F2064D0DE00681CD8 /* sampleFeedContentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */; };
+		873E287620731C0F00BE6144 /* TextureLayoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E287520731C0F00BE6144 /* TextureLayoutTestViewController.m */; };
+		873E28792073288500BE6144 /* ASStackLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28782073288500BE6144 /* ASStackLayoutSpecViewController.m */; };
+		873E287C2073298800BE6144 /* ASStackLayoutDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E287B2073298800BE6144 /* ASStackLayoutDemoView.m */; };
+		873E2881207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E2880207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m */; };
+		873E28842073632400BE6144 /* PhotoWithInsetTextOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28832073632400BE6144 /* PhotoWithInsetTextOverlayView.m */; };
+		873E288820736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E288720736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m */; };
+		873E288B20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E288A20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m */; };
+		873E288E207370B100BE6144 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E288D207370B100BE6144 /* Utilities.m */; };
+		873E28922073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28912073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m */; };
+		873E2895207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E2894207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m */; };
+		873E289A20737FC200BE6144 /* CornerLayoutExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289920737FC200BE6144 /* CornerLayoutExampleViewController.m */; };
+		873E289D20737FD500BE6144 /* CornerLayoutExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289C20737FD500BE6144 /* CornerLayoutExampleView.m */; };
+		873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289F2073807100BE6144 /* UserProfileSampleViewController.m */; };
+		873E28A32073807F00BE6144 /* UserProfileSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28A22073807F00BE6144 /* UserProfileSampleView.m */; };
 		874761B32071C7D9004F4023 /* ItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 874761B12071C7D9004F4023 /* ItemNode.m */; };
 		8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */; };
 		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
@@ -57,6 +71,34 @@
 		8737351520648DF800681CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8737351C2064D0B100681CD8 /* sampleContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleContentPage.html; sourceTree = "<group>"; };
 		8737351E2064D0DE00681CD8 /* sampleFeedContentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sampleFeedContentPage.html; sourceTree = "<group>"; };
+		873E287420731C0F00BE6144 /* TextureLayoutTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureLayoutTestViewController.h; sourceTree = "<group>"; };
+		873E287520731C0F00BE6144 /* TextureLayoutTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureLayoutTestViewController.m; sourceTree = "<group>"; };
+		873E28772073288500BE6144 /* ASStackLayoutSpecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASStackLayoutSpecViewController.h; sourceTree = "<group>"; };
+		873E28782073288500BE6144 /* ASStackLayoutSpecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASStackLayoutSpecViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		873E287A2073298800BE6144 /* ASStackLayoutDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASStackLayoutDemoView.h; sourceTree = "<group>"; };
+		873E287B2073298800BE6144 /* ASStackLayoutDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASStackLayoutDemoView.m; sourceTree = "<group>"; };
+		873E287F207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoWithInsetTextOverlayViewController.h; sourceTree = "<group>"; };
+		873E2880207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoWithInsetTextOverlayViewController.m; sourceTree = "<group>"; };
+		873E28822073632400BE6144 /* PhotoWithInsetTextOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoWithInsetTextOverlayView.h; sourceTree = "<group>"; };
+		873E28832073632400BE6144 /* PhotoWithInsetTextOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoWithInsetTextOverlayView.m; sourceTree = "<group>"; };
+		873E288620736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoWithOutsetIconOverlayViewController.h; sourceTree = "<group>"; };
+		873E288720736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoWithOutsetIconOverlayViewController.m; sourceTree = "<group>"; };
+		873E288920736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoWithOutsetIconOverlayView.h; sourceTree = "<group>"; };
+		873E288A20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoWithOutsetIconOverlayView.m; sourceTree = "<group>"; };
+		873E288C207370B100BE6144 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		873E288D207370B100BE6144 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		873E28902073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexibleSeparatorSurroundingContentViewController.h; sourceTree = "<group>"; };
+		873E28912073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleSeparatorSurroundingContentViewController.m; sourceTree = "<group>"; };
+		873E2893207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexibleSeparatorSurroundingContentView.h; sourceTree = "<group>"; };
+		873E2894207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleSeparatorSurroundingContentView.m; sourceTree = "<group>"; };
+		873E289820737FC200BE6144 /* CornerLayoutExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerLayoutExampleViewController.h; sourceTree = "<group>"; };
+		873E289920737FC200BE6144 /* CornerLayoutExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerLayoutExampleViewController.m; sourceTree = "<group>"; };
+		873E289B20737FD500BE6144 /* CornerLayoutExampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerLayoutExampleView.h; sourceTree = "<group>"; };
+		873E289C20737FD500BE6144 /* CornerLayoutExampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerLayoutExampleView.m; sourceTree = "<group>"; };
+		873E289E2073807100BE6144 /* UserProfileSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileSampleViewController.h; sourceTree = "<group>"; };
+		873E289F2073807100BE6144 /* UserProfileSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileSampleViewController.m; sourceTree = "<group>"; };
+		873E28A12073807F00BE6144 /* UserProfileSampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileSampleView.h; sourceTree = "<group>"; };
+		873E28A22073807F00BE6144 /* UserProfileSampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileSampleView.m; sourceTree = "<group>"; };
 		874761B12071C7D9004F4023 /* ItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNode.m; sourceTree = "<group>"; };
 		874761B22071C7D9004F4023 /* ItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNode.h; sourceTree = "<group>"; };
 		8756A1E320722FD100990FE2 /* EmbeddedTableNodeCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedTableNodeCellNode.h; sourceTree = "<group>"; };
@@ -128,6 +170,7 @@
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
+				873E287320731BB200BE6144 /* TextureLayout测试 */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
 				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
 				87FE6924206B3F2D003F16EB /* ASCollectionView测试，带拖动排序 */,
@@ -137,6 +180,89 @@
 				875C53C6206D0487006B064B /* DKNightVersion测试 */,
 			);
 			path = textureDemo;
+			sourceTree = "<group>";
+		};
+		873E287320731BB200BE6144 /* TextureLayout测试 */ = {
+			isa = PBXGroup;
+			children = (
+				873E287420731C0F00BE6144 /* TextureLayoutTestViewController.h */,
+				873E287520731C0F00BE6144 /* TextureLayoutTestViewController.m */,
+				873E289720737FA400BE6144 /* CornerLayoutExample */,
+				873E289620737F4E00BE6144 /* UserProfileSample */,
+				873E288F2073785C00BE6144 /* FlexibleSeparatorSurroundingContent */,
+				873E288520736D6200BE6144 /* PhotoWithOutsetIconOverlay */,
+				873E287E207362DC00BE6144 /* PhotoWithInsetTextOverlayViewController */,
+				873E287D207362C900BE6144 /* ASStackLayoutSpecViewController */,
+			);
+			path = "TextureLayout测试";
+			sourceTree = "<group>";
+		};
+		873E287D207362C900BE6144 /* ASStackLayoutSpecViewController */ = {
+			isa = PBXGroup;
+			children = (
+				873E28772073288500BE6144 /* ASStackLayoutSpecViewController.h */,
+				873E28782073288500BE6144 /* ASStackLayoutSpecViewController.m */,
+				873E287A2073298800BE6144 /* ASStackLayoutDemoView.h */,
+				873E287B2073298800BE6144 /* ASStackLayoutDemoView.m */,
+			);
+			path = ASStackLayoutSpecViewController;
+			sourceTree = "<group>";
+		};
+		873E287E207362DC00BE6144 /* PhotoWithInsetTextOverlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				873E287F207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.h */,
+				873E2880207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m */,
+				873E28822073632400BE6144 /* PhotoWithInsetTextOverlayView.h */,
+				873E28832073632400BE6144 /* PhotoWithInsetTextOverlayView.m */,
+			);
+			path = PhotoWithInsetTextOverlayViewController;
+			sourceTree = "<group>";
+		};
+		873E288520736D6200BE6144 /* PhotoWithOutsetIconOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				873E288620736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.h */,
+				873E288720736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m */,
+				873E288920736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.h */,
+				873E288A20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m */,
+				873E288C207370B100BE6144 /* Utilities.h */,
+				873E288D207370B100BE6144 /* Utilities.m */,
+			);
+			path = PhotoWithOutsetIconOverlay;
+			sourceTree = "<group>";
+		};
+		873E288F2073785C00BE6144 /* FlexibleSeparatorSurroundingContent */ = {
+			isa = PBXGroup;
+			children = (
+				873E28902073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.h */,
+				873E28912073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m */,
+				873E2893207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.h */,
+				873E2894207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m */,
+			);
+			path = FlexibleSeparatorSurroundingContent;
+			sourceTree = "<group>";
+		};
+		873E289620737F4E00BE6144 /* UserProfileSample */ = {
+			isa = PBXGroup;
+			children = (
+				873E289E2073807100BE6144 /* UserProfileSampleViewController.h */,
+				873E289F2073807100BE6144 /* UserProfileSampleViewController.m */,
+				873E28A12073807F00BE6144 /* UserProfileSampleView.h */,
+				873E28A22073807F00BE6144 /* UserProfileSampleView.m */,
+			);
+			path = UserProfileSample;
+			sourceTree = "<group>";
+		};
+		873E289720737FA400BE6144 /* CornerLayoutExample */ = {
+			isa = PBXGroup;
+			children = (
+				873E289820737FC200BE6144 /* CornerLayoutExampleViewController.h */,
+				873E289920737FC200BE6144 /* CornerLayoutExampleViewController.m */,
+				873E289B20737FD500BE6144 /* CornerLayoutExampleView.h */,
+				873E289C20737FD500BE6144 /* CornerLayoutExampleView.m */,
+			);
+			path = CornerLayoutExample;
 			sourceTree = "<group>";
 		};
 		875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */ = {
@@ -375,23 +501,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873E28A32073807F00BE6144 /* UserProfileSampleView.m in Sources */,
 				8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */,
 				875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */,
+				873E28842073632400BE6144 /* PhotoWithInsetTextOverlayView.m in Sources */,
+				873E2895207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m in Sources */,
 				874761B32071C7D9004F4023 /* ItemNode.m in Sources */,
 				875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */,
 				87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */,
+				873E28922073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m in Sources */,
+				873E287C2073298800BE6144 /* ASStackLayoutDemoView.m in Sources */,
+				873E287620731C0F00BE6144 /* TextureLayoutTestViewController.m in Sources */,
 				8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */,
+				873E288820736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m in Sources */,
+				873E289A20737FC200BE6144 /* CornerLayoutExampleViewController.m in Sources */,
+				873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */,
 				8737350E20648DF800681CD8 /* textureDemo.xcdatamodeld in Sources */,
 				8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */,
 				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,
+				873E28792073288500BE6144 /* ASStackLayoutSpecViewController.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
 				875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
 				87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */,
+				873E288B20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m in Sources */,
 				8737351620648DF800681CD8 /* main.m in Sources */,
+				873E2881207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
 				87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */,
+				873E288E207370B100BE6144 /* Utilities.m in Sources */,
+				873E289D20737FD500BE6144 /* CornerLayoutExampleView.m in Sources */,
 				87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

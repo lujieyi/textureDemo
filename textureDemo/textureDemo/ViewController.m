@@ -16,6 +16,7 @@
 #import "UICollectionViewTestViewController.h"
 #import "ASPagerNodeViewController.h"
 #import "ASPagerNodeViewController.h"
+#import "TextureLayoutTestViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @end
 
@@ -74,6 +75,13 @@ static NSString *reuseID = @"tableViewCellReuseID";
         case 4:
         {
             ASPagerNodeViewController *vc = [[ASPagerNodeViewController alloc]init];
+            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 5:
+        {
+            TextureLayoutTestViewController *vc = [[TextureLayoutTestViewController alloc]init];
             vc.title = [WJViewModel sharedModel].demos[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
         }

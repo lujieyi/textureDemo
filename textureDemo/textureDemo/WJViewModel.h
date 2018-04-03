@@ -14,5 +14,6 @@
 @property (nonatomic,strong)NSMutableArray<NSMutableArray<NSString*>*> *data;
 //ViewController的数据
 @property (nonatomic,strong)NSMutableArray<NSString *> *demos;
-
+//TextureLayoutTestViewController数据
+@property (nonatomic,strong)NSMutableArray<NSString *> *ASLayoutDemos;
 @end
