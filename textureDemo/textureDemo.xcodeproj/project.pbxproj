@@ -34,11 +34,11 @@
 		873E289D20737FD500BE6144 /* CornerLayoutExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289C20737FD500BE6144 /* CornerLayoutExampleView.m */; };
 		873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289F2073807100BE6144 /* UserProfileSampleViewController.m */; };
 		873E28A32073807F00BE6144 /* UserProfileSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28A22073807F00BE6144 /* UserProfileSampleView.m */; };
+		8746E74F2074C81F00371AD8 /* DKNightVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746E74D2074C81F00371AD8 /* DKNightVersionViewController.m */; };
 		874761B32071C7D9004F4023 /* ItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 874761B12071C7D9004F4023 /* ItemNode.m */; };
 		8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */; };
 		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
 		875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53C8206D04E5006B064B /* YTKNetworkViewController.m */; };
-		875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53CB206D0502006B064B /* DKNightVersionViewController.m */; };
 		87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */; };
 		87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */; };
 		87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */; };
@@ -99,6 +99,8 @@
 		873E289F2073807100BE6144 /* UserProfileSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileSampleViewController.m; sourceTree = "<group>"; };
 		873E28A12073807F00BE6144 /* UserProfileSampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileSampleView.h; sourceTree = "<group>"; };
 		873E28A22073807F00BE6144 /* UserProfileSampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileSampleView.m; sourceTree = "<group>"; };
+		8746E74D2074C81F00371AD8 /* DKNightVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKNightVersionViewController.m; path = "textureDemo/YTKNetwork测试/DKNightVersion测试/DKNightVersionViewController.m"; sourceTree = SOURCE_ROOT; };
+		8746E74E2074C81F00371AD8 /* DKNightVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKNightVersionViewController.h; path = "textureDemo/YTKNetwork测试/DKNightVersion测试/DKNightVersionViewController.h"; sourceTree = SOURCE_ROOT; };
 		874761B12071C7D9004F4023 /* ItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNode.m; sourceTree = "<group>"; };
 		874761B22071C7D9004F4023 /* ItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNode.h; sourceTree = "<group>"; };
 		8756A1E320722FD100990FE2 /* EmbeddedTableNodeCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedTableNodeCellNode.h; sourceTree = "<group>"; };
@@ -107,8 +109,6 @@
 		875C53BF206D026F006B064B /* ASPagerNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPagerNodeViewController.m; sourceTree = "<group>"; };
 		875C53C7206D04E5006B064B /* YTKNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkViewController.h; sourceTree = "<group>"; };
 		875C53C8206D04E5006B064B /* YTKNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkViewController.m; sourceTree = "<group>"; };
-		875C53CA206D0502006B064B /* DKNightVersionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNightVersionViewController.h; sourceTree = "<group>"; };
-		875C53CB206D0502006B064B /* DKNightVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNightVersionViewController.m; sourceTree = "<group>"; };
 		87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaboolaTestViewController.h; sourceTree = "<group>"; };
 		87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaboolaTestViewController.m; sourceTree = "<group>"; };
 		87FE6921206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureTestASNetworkImageNodeViewController.h; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 				87FE6928206B3F7D003F16EB /* UICollectionView排序实现 */,
 				875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */,
 				875C53C5206D0479006B064B /* YTKNetwork测试 */,
-				875C53C6206D0487006B064B /* DKNightVersion测试 */,
+				8746E7502074C84200371AD8 /* DKNightVersion测试 */,
 			);
 			path = textureDemo;
 			sourceTree = "<group>";
@@ -265,6 +265,16 @@
 			path = CornerLayoutExample;
 			sourceTree = "<group>";
 		};
+		8746E7502074C84200371AD8 /* DKNightVersion测试 */ = {
+			isa = PBXGroup;
+			children = (
+				8746E74E2074C81F00371AD8 /* DKNightVersionViewController.h */,
+				8746E74D2074C81F00371AD8 /* DKNightVersionViewController.m */,
+			);
+			name = "DKNightVersion测试";
+			path = "YTKNetwork测试/DKNightVersion测试";
+			sourceTree = "<group>";
+		};
 		875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,16 +295,6 @@
 				875C53C8206D04E5006B064B /* YTKNetworkViewController.m */,
 			);
 			path = "YTKNetwork测试";
-			sourceTree = "<group>";
-		};
-		875C53C6206D0487006B064B /* DKNightVersion测试 */ = {
-			isa = PBXGroup;
-			children = (
-				875C53CA206D0502006B064B /* DKNightVersionViewController.h */,
-				875C53CB206D0502006B064B /* DKNightVersionViewController.m */,
-			);
-			name = "DKNightVersion测试";
-			path = "../DKNightVersion测试";
 			sourceTree = "<group>";
 		};
 		87FE691F206B3EA5003F16EB /* Taboola广告测试 */ = {
@@ -521,7 +521,6 @@
 				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,
 				873E28792073288500BE6144 /* ASStackLayoutSpecViewController.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
-				875C53CC206D0502006B064B /* DKNightVersionViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
 				87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */,
 				873E288B20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m in Sources */,
@@ -530,6 +529,7 @@
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
 				87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */,
+				8746E74F2074C81F00371AD8 /* DKNightVersionViewController.m in Sources */,
 				873E288E207370B100BE6144 /* Utilities.m in Sources */,
 				873E289D20737FD500BE6144 /* CornerLayoutExampleView.m in Sources */,
 				87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */,

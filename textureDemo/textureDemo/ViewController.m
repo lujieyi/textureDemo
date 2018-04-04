@@ -42,53 +42,57 @@ static NSString *reuseID = @"tableViewCellReuseID";
 }
 #pragma mark UITableViewDelegate
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSInteger row = indexPath.row;
-    switch (row) {
-        case 0:
-        {
-            TaboolaTestViewController *vc = [TaboolaTestViewController new];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        case 1:
-        {
-            TextureTestASNetworkImageNodeViewController *vc = [TextureTestASNetworkImageNodeViewController new];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-            break;
-        }
-        case 2:
-        {
-            ASCollectionViewTestViewController *vc = [ASCollectionViewTestViewController new];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-            break;
-        }
-        case 3:
-        {
-            UICollectionViewTestViewController *vc =  [UICollectionViewTestViewController new];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-            break;
-        }
-        case 4:
-        {
-            ASPagerNodeViewController *vc = [[ASPagerNodeViewController alloc]init];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        case 5:
-        {
-            TextureLayoutTestViewController *vc = [[TextureLayoutTestViewController alloc]init];
-            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        default:
-            break;
-    }
+    NSString *VCString = [WJViewModel sharedModel].demos[indexPath.row];
+    UIViewController *vc = [NSClassFromString(VCString) new];
+    vc.title  = VCString;
+    [self.navigationController pushViewController:vc animated:YES];
+//    NSInteger row = indexPath.row;
+//    switch (row) {
+//        case 0:
+//        {
+//            TaboolaTestViewController *vc = [TaboolaTestViewController new];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//        }
+//            break;
+//        case 1:
+//        {
+//            TextureTestASNetworkImageNodeViewController *vc = [TextureTestASNetworkImageNodeViewController new];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//            break;
+//        }
+//        case 2:
+//        {
+//            ASCollectionViewTestViewController *vc = [ASCollectionViewTestViewController new];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//            break;
+//        }
+//        case 3:
+//        {
+//            UICollectionViewTestViewController *vc =  [UICollectionViewTestViewController new];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//            break;
+//        }
+//        case 4:
+//        {
+//            ASPagerNodeViewController *vc = [[ASPagerNodeViewController alloc]init];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//        }
+//            break;
+//        case 5:
+//        {
+//            TextureLayoutTestViewController *vc = [[TextureLayoutTestViewController alloc]init];
+//            vc.title = [WJViewModel sharedModel].demos[indexPath.row];
+//            [self.navigationController pushViewController:vc animated:YES];
+//        }
+//            break;
+//        default:
+//            break;
+//    }
 }
 
 
