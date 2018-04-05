@@ -668,7 +668,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/jieyilu/Desktop/textureDemo/textureDemo/textureDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/textureDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = textureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhouweijie.textureDemo;
@@ -683,7 +683,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/jieyilu/Desktop/textureDemo/textureDemo/textureDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/textureDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = textureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhouweijie.textureDemo;
