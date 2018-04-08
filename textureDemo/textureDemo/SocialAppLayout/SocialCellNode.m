@@ -114,7 +114,7 @@
 //    topAndPostSpec.style.flexShrink = 1.0;
     
     ASStackLayoutSpec *avatarAndDetailSpec = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:8 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsStart children:@[_avatarNode,topAndPostSpec]];
-    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:avatarAndDetailSpec];
+    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:topAndPostSpec];
 }
 #pragma mark - ASNetworkImageNodeDelegate methods.
 

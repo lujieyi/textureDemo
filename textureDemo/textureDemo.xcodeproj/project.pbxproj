@@ -191,13 +191,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		872A6D4F2079AB6200FFF8D8 /* New Group */ = {
+		872A6D4F2079AB6200FFF8D8 /* ASVideoNodeViewController */ = {
 			isa = PBXGroup;
 			children = (
 				872A6D502079AB9700FFF8D8 /* ASVideoNodeViewController.h */,
 				872A6D512079AB9700FFF8D8 /* ASVideoNodeViewController.m */,
 			);
-			path = "New Group";
+			path = ASVideoNodeViewController;
 			sourceTree = "<group>";
 		};
 		872A6D582079C86E00FFF8D8 /* SocialAppLayout */ = {
@@ -279,7 +279,7 @@
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
 				872A6D582079C86E00FFF8D8 /* SocialAppLayout */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
-				872A6D4F2079AB6200FFF8D8 /* New Group */,
+				872A6D4F2079AB6200FFF8D8 /* ASVideoNodeViewController */,
 				8746E7512074CB7700371AD8 /* ASTableNode嵌套ASVideoNode */,
 				873E287320731BB200BE6144 /* TextureLayout测试 */,
 				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
