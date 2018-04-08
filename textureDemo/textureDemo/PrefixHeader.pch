@@ -15,4 +15,5 @@
 //#import <SVProgressHUD.h>
 #import "WJActivityView.h"
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
+#define SCREENSIZE [UIScreen mainScreen].bounds.size
 #endif /* PrefixHeader_pch */
