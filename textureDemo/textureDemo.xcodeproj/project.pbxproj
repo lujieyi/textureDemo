@@ -35,6 +35,7 @@
 		873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E289F2073807100BE6144 /* UserProfileSampleViewController.m */; };
 		873E28A32073807F00BE6144 /* UserProfileSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E28A22073807F00BE6144 /* UserProfileSampleView.m */; };
 		8746E74F2074C81F00371AD8 /* DKNightVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746E74D2074C81F00371AD8 /* DKNightVersionViewController.m */; };
+		8746E7542074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746E7532074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m */; };
 		874761B32071C7D9004F4023 /* ItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 874761B12071C7D9004F4023 /* ItemNode.m */; };
 		8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */; };
 		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
@@ -101,6 +102,8 @@
 		873E28A22073807F00BE6144 /* UserProfileSampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileSampleView.m; sourceTree = "<group>"; };
 		8746E74D2074C81F00371AD8 /* DKNightVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKNightVersionViewController.m; path = "textureDemo/YTKNetwork测试/DKNightVersion测试/DKNightVersionViewController.m"; sourceTree = SOURCE_ROOT; };
 		8746E74E2074C81F00371AD8 /* DKNightVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKNightVersionViewController.h; path = "textureDemo/YTKNetwork测试/DKNightVersion测试/DKNightVersionViewController.h"; sourceTree = SOURCE_ROOT; };
+		8746E7522074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASVideoNodeInASTableNodeViewController.h; sourceTree = "<group>"; };
+		8746E7532074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASVideoNodeInASTableNodeViewController.m; sourceTree = "<group>"; };
 		874761B12071C7D9004F4023 /* ItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemNode.m; sourceTree = "<group>"; };
 		874761B22071C7D9004F4023 /* ItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemNode.h; sourceTree = "<group>"; };
 		8756A1E320722FD100990FE2 /* EmbeddedTableNodeCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedTableNodeCellNode.h; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
+				8746E7512074CB7700371AD8 /* ASTableNode嵌套ASVideoNode */,
 				873E287320731BB200BE6144 /* TextureLayout测试 */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
 				87FE6920206B3EB5003F16EB /* ASNetworkImageNode测试 */,
@@ -273,6 +277,15 @@
 			);
 			name = "DKNightVersion测试";
 			path = "YTKNetwork测试/DKNightVersion测试";
+			sourceTree = "<group>";
+		};
+		8746E7512074CB7700371AD8 /* ASTableNode嵌套ASVideoNode */ = {
+			isa = PBXGroup;
+			children = (
+				8746E7522074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.h */,
+				8746E7532074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m */,
+			);
+			path = "ASTableNode嵌套ASVideoNode";
 			sourceTree = "<group>";
 		};
 		875C53BD206D01CA006B064B /* ASPagerNoder带ASTableNode翻页 */ = {
@@ -513,6 +526,7 @@
 				873E287C2073298800BE6144 /* ASStackLayoutDemoView.m in Sources */,
 				873E287620731C0F00BE6144 /* TextureLayoutTestViewController.m in Sources */,
 				8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */,
+				8746E7542074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m in Sources */,
 				873E288820736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m in Sources */,
 				873E289A20737FC200BE6144 /* CornerLayoutExampleViewController.m in Sources */,
 				873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */,
