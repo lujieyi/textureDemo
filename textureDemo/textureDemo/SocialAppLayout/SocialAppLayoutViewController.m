@@ -58,7 +58,7 @@
     newPost.username = @"@nguyenhuy";
     newPost.photo = @"https://avatars2.githubusercontent.com/u/587874?v=3&s=96";
     newPost.post = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
-    newPost.time = @"1m";
+    newPost.time = @"1m";//newPost.time = @"1m";
     newPost.media = @"";
     newPost.via = 1;
     newPost.likes = arc4random_uniform(74);
