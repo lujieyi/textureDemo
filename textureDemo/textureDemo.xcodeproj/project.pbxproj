@@ -66,6 +66,7 @@
 		8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8756A1E420722FD100990FE2 /* EmbeddedTableNodeCellNode.m */; };
 		875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53BF206D026F006B064B /* ASPagerNodeViewController.m */; };
 		875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C53C8206D04E5006B064B /* YTKNetworkViewController.m */; };
+		8799374D207B698400BCCDBE /* infiniteScorllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8799374C207B698400BCCDBE /* infiniteScorllViewController.m */; };
 		87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */; };
 		87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6922206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m */; };
 		87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */; };
@@ -171,6 +172,8 @@
 		875C53BF206D026F006B064B /* ASPagerNodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASPagerNodeViewController.m; sourceTree = "<group>"; };
 		875C53C7206D04E5006B064B /* YTKNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkViewController.h; sourceTree = "<group>"; };
 		875C53C8206D04E5006B064B /* YTKNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkViewController.m; sourceTree = "<group>"; };
+		8799374B207B698400BCCDBE /* infiniteScorllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infiniteScorllViewController.h; sourceTree = "<group>"; };
+		8799374C207B698400BCCDBE /* infiniteScorllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = infiniteScorllViewController.m; sourceTree = "<group>"; };
 		87FE691C206B3E9B003F16EB /* TaboolaTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaboolaTestViewController.h; sourceTree = "<group>"; };
 		87FE691D206B3E9B003F16EB /* TaboolaTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaboolaTestViewController.m; sourceTree = "<group>"; };
 		87FE6921206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureTestASNetworkImageNodeViewController.h; sourceTree = "<group>"; };
@@ -287,6 +290,7 @@
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
+				8799374A207B68D900BCCDBE /* ASCollectionNode实现智能无线滚动 */,
 				872A6D582079C86E00FFF8D8 /* SocialAppLayout */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
 				872A6D4F2079AB6200FFF8D8 /* ASVideoNodeViewController */,
@@ -424,6 +428,15 @@
 				875C53C8206D04E5006B064B /* YTKNetworkViewController.m */,
 			);
 			path = "YTKNetwork测试";
+			sourceTree = "<group>";
+		};
+		8799374A207B68D900BCCDBE /* ASCollectionNode实现智能无线滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				8799374B207B698400BCCDBE /* infiniteScorllViewController.h */,
+				8799374C207B698400BCCDBE /* infiniteScorllViewController.m */,
+			);
+			path = "ASCollectionNode实现智能无线滚动";
 			sourceTree = "<group>";
 		};
 		87FE691F206B3EA5003F16EB /* Taboola广告测试 */ = {
@@ -667,6 +680,7 @@
 				873E289A20737FC200BE6144 /* CornerLayoutExampleViewController.m in Sources */,
 				872A6D672079FED800FFF8D8 /* TextStyles.m in Sources */,
 				873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */,
+				8799374D207B698400BCCDBE /* infiniteScorllViewController.m in Sources */,
 				8737350E20648DF800681CD8 /* textureDemo.xcdatamodeld in Sources */,
 				8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */,
 				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,

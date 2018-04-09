@@ -38,7 +38,7 @@ static WJViewModel *instance;
 }
 -(NSMutableArray<NSString *> *)demos{
     if (_demos == nil) {
-        _demos = [[NSMutableArray alloc]initWithObjects:@"TaboolaTestViewController",@"TextureTestASNetworkImageNodeViewController",@"ASCollectionViewTestViewController",@"UICollectionViewTestViewController",@"ASPagerNodeViewController",@"TextureLayoutTestViewController",@"ASVideoNodeInASTableNodeViewController",@"ASVideoNodeViewController",@"SocialAppLayoutViewController", nil];
+        _demos = [[NSMutableArray alloc]initWithObjects:@"TaboolaTestViewController",@"TextureTestASNetworkImageNodeViewController",@"ASCollectionViewTestViewController",@"UICollectionViewTestViewController",@"ASPagerNodeViewController",@"TextureLayoutTestViewController",@"ASVideoNodeInASTableNodeViewController",@"ASVideoNodeViewController",@"SocialAppLayoutViewController",@"infiniteScorllViewController", nil];
     }
     return _demos;
 }
