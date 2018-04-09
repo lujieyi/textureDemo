@@ -33,6 +33,8 @@
 -(instancetype)initWithPost:(Post *)post{
     self = [super init];
     if (self) {
+//        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
         _post = post;
         self.automaticallyManagesSubnodes = YES;
         //头像
@@ -81,7 +83,28 @@
         }
         
         _postNode = [ASTextNode new];
-        _postNode.attributedText = [[NSAttributedString alloc]initWithString:post.post attributes:[TextStyles postStyle]];
+        //检查网址
+        NSString *kLinkAttributeName = @"TextLinkAttributeName";
+
+        NSMutableAttributedString *string = [[NSMutableAttributedString alloc]initWithString:post.post attributes:[TextStyles postStyle]];
+        NSDataDetector *detector  = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink error:nil];
+        [detector enumerateMatchesInString:string.string options:kNilOptions range:NSMakeRange(0, string.string.length) usingBlock:^(NSTextCheckingResult * _Nullable result, NSMatchingFlags flags, BOOL * _Nonnull stop) {
+            if (result.resultType == NSTextCheckingTypeLink) {
+                NSMutableDictionary *mutableDic = [NSMutableDictionary dictionaryWithDictionary:@{
+                                                                                                  NSFontAttributeName : [UIFont systemFontOfSize:15.0],
+                                                                                                  NSForegroundColorAttributeName: [UIColor colorWithRed:59.0/255.0 green:89.0/255.0 blue:152.0/255.0 alpha:1.0],
+                                                                                                  NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle)
+                                                                                                  }];
+                mutableDic[kLinkAttributeName] = [NSURL URLWithString:result.URL.absoluteString];
+                [string addAttributes:mutableDic range:result.range];
+            }
+        }];
+        _postNode.linkAttributeNames = @[kLinkAttributeName];//设置这个值才会调用代理方法，这个值为空不会调用代理方法
+        _postNode.attributedText = string;
+        _postNode.userInteractionEnabled = YES;
+        _postNode.delegate = self;
+        _postNode.passthroughNonlinkTouches = YES;//设置这个值touches才会传递到下面view层级，不设置cell不高亮的，就能看出来。
+        
 //        _postNode.maximumNumberOfLines = 3;
         
         _likesNode = [[LikesNode alloc]initWithLikesCount:post.likes];
@@ -117,4 +140,9 @@
 //{
 //    [self setNeedsLayout];
 //}
+#pragma mark - ASTextNodeDelegate
+- (void)textNode:(ASTextNode *)textNode tappedLinkAttribute:(NSString *)attribute value:(id)value atPoint:(CGPoint)point textRange:(NSRange)textRange{
+    
+    [[UIApplication sharedApplication]openURL:value options:@{} completionHandler:nil];
+}
 @end
