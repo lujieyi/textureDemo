@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871ABE88207B08A7004AC5EF /* LikesNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ABE87207B08A7004AC5EF /* LikesNode.m */; };
+		871ABE8B207B08B5004AC5EF /* CommentsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ABE8A207B08B5004AC5EF /* CommentsNode.m */; };
 		8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */; };
 		8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFEE206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m */; };
 		8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFF12068A0DA00FBB272 /* WJViewModel.m */; };
@@ -74,6 +76,10 @@
 
 /* Begin PBXFileReference section */
 		07FE288E3A5DBB763AC71204 /* Pods-textureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		871ABE86207B08A7004AC5EF /* LikesNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikesNode.h; sourceTree = "<group>"; };
+		871ABE87207B08A7004AC5EF /* LikesNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikesNode.m; sourceTree = "<group>"; };
+		871ABE89207B08B5004AC5EF /* CommentsNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsNode.h; sourceTree = "<group>"; };
+		871ABE8A207B08B5004AC5EF /* CommentsNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsNode.m; sourceTree = "<group>"; };
 		8722BFEA2068962A00FBB272 /* WJCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCollectionViewCell.h; sourceTree = "<group>"; };
 		8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCollectionViewCell.m; sourceTree = "<group>"; };
 		8722BFED206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCollectionViewSupplementaryCellCollectionViewCell.h; sourceTree = "<group>"; };
@@ -209,6 +215,10 @@
 				872A6D632079F69F00FFF8D8 /* SocialCellNode.m */,
 				872A6D652079FED800FFF8D8 /* TextStyles.h */,
 				872A6D662079FED800FFF8D8 /* TextStyles.m */,
+				871ABE86207B08A7004AC5EF /* LikesNode.h */,
+				871ABE87207B08A7004AC5EF /* LikesNode.m */,
+				871ABE89207B08B5004AC5EF /* CommentsNode.h */,
+				871ABE8A207B08B5004AC5EF /* CommentsNode.m */,
 				872A6E70207A16D000FFF8D8 /* Post.h */,
 				872A6E71207A16D000FFF8D8 /* Post.m */,
 			);
@@ -643,6 +653,7 @@
 				8756A1E520722FD100990FE2 /* EmbeddedTableNodeCellNode.m in Sources */,
 				875C53C9206D04E5006B064B /* YTKNetworkViewController.m in Sources */,
 				873E28842073632400BE6144 /* PhotoWithInsetTextOverlayView.m in Sources */,
+				871ABE88207B08A7004AC5EF /* LikesNode.m in Sources */,
 				873E2895207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m in Sources */,
 				874761B32071C7D9004F4023 /* ItemNode.m in Sources */,
 				875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */,
@@ -659,6 +670,7 @@
 				8737350E20648DF800681CD8 /* textureDemo.xcdatamodeld in Sources */,
 				8722BFF22068A0DA00FBB272 /* WJViewModel.m in Sources */,
 				87FE692E206B810B003F16EB /* WJActivityView.m in Sources */,
+				871ABE8B207B08B5004AC5EF /* CommentsNode.m in Sources */,
 				873E28792073288500BE6144 /* ASStackLayoutSpecViewController.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,

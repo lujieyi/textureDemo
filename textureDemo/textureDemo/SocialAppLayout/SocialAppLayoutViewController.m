@@ -67,7 +67,7 @@
     
     newPost = [[Post alloc] init];
     newPost.name = @"Alex Long Name";
-    newPost.username = @"@veryyyylongusername";
+    newPost.username = @"@veryyyylongusernameveryyyylongusernameveryyyylongusername";
     newPost.photo = @"https://avatars1.githubusercontent.com/u/8086633?v=3&s=96";
     newPost.post = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
     newPost.time = @"3:02";
