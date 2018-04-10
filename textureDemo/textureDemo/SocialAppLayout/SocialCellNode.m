@@ -134,6 +134,10 @@
     ASStackLayoutSpec *avatarSpec = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:8.0 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsStart children:@[_avatarNode,topAndPostSpec]];
     return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:avatarSpec];
 }
+-(void)didLoad{
+    [super didLoad];
+    self.layer.as_allowsHighlightDrawing = YES;
+}
 #pragma mark - ASNetworkImageNodeDelegate methods.
 
 //- (void)imageNode:(ASNetworkImageNode *)imageNode didLoadImage:(UIImage *)image

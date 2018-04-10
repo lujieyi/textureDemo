@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8700CAE1207C524E008B86A0 /* LoadingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700CAE0207C524E008B86A0 /* LoadingNode.m */; };
+		8700CAE4207C8DF8008B86A0 /* BlurbNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700CAE2207C8DF8008B86A0 /* BlurbNode.m */; };
+		8700CAE8207CA01C008B86A0 /* addLinkInTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700CAE7207CA01C008B86A0 /* addLinkInTextViewController.m */; };
+		8700CAEB207CABE6008B86A0 /* postNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700CAEA207CABE6008B86A0 /* postNode.m */; };
 		871ABE88207B08A7004AC5EF /* LikesNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ABE87207B08A7004AC5EF /* LikesNode.m */; };
 		871ABE8B207B08B5004AC5EF /* CommentsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 871ABE8A207B08B5004AC5EF /* CommentsNode.m */; };
 		8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722BFEB2068962A00FBB272 /* WJCollectionViewCell.m */; };
@@ -77,6 +81,14 @@
 
 /* Begin PBXFileReference section */
 		07FE288E3A5DBB763AC71204 /* Pods-textureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8700CADF207C524D008B86A0 /* LoadingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingNode.h; sourceTree = "<group>"; };
+		8700CAE0207C524E008B86A0 /* LoadingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingNode.m; sourceTree = "<group>"; };
+		8700CAE2207C8DF8008B86A0 /* BlurbNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurbNode.m; sourceTree = "<group>"; };
+		8700CAE3207C8DF8008B86A0 /* BlurbNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurbNode.h; sourceTree = "<group>"; };
+		8700CAE6207CA01C008B86A0 /* addLinkInTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addLinkInTextViewController.h; sourceTree = "<group>"; };
+		8700CAE7207CA01C008B86A0 /* addLinkInTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addLinkInTextViewController.m; sourceTree = "<group>"; };
+		8700CAE9207CABE6008B86A0 /* postNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postNode.h; sourceTree = "<group>"; };
+		8700CAEA207CABE6008B86A0 /* postNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postNode.m; sourceTree = "<group>"; };
 		871ABE86207B08A7004AC5EF /* LikesNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikesNode.h; sourceTree = "<group>"; };
 		871ABE87207B08A7004AC5EF /* LikesNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikesNode.m; sourceTree = "<group>"; };
 		871ABE89207B08B5004AC5EF /* CommentsNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsNode.h; sourceTree = "<group>"; };
@@ -200,6 +212,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8700CAE5207C9FDB008B86A0 /* 文本加链接和全文按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				8700CAE6207CA01C008B86A0 /* addLinkInTextViewController.h */,
+				8700CAE7207CA01C008B86A0 /* addLinkInTextViewController.m */,
+				8700CAE9207CABE6008B86A0 /* postNode.h */,
+				8700CAEA207CABE6008B86A0 /* postNode.m */,
+			);
+			path = "文本加链接和全文按钮";
+			sourceTree = "<group>";
+		};
 		872A6D4F2079AB6200FFF8D8 /* ASVideoNodeViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +313,7 @@
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
+				8700CAE5207C9FDB008B86A0 /* 文本加链接和全文按钮 */,
 				8799374A207B68D900BCCDBE /* ASCollectionNode实现智能无线滚动 */,
 				872A6D582079C86E00FFF8D8 /* SocialAppLayout */,
 				87FE691F206B3EA5003F16EB /* Taboola广告测试 */,
@@ -435,6 +459,10 @@
 			children = (
 				8799374B207B698400BCCDBE /* infiniteScorllViewController.h */,
 				8799374C207B698400BCCDBE /* infiniteScorllViewController.m */,
+				8700CADF207C524D008B86A0 /* LoadingNode.h */,
+				8700CAE0207C524E008B86A0 /* LoadingNode.m */,
+				8700CAE3207C8DF8008B86A0 /* BlurbNode.h */,
+				8700CAE2207C8DF8008B86A0 /* BlurbNode.m */,
 			);
 			path = "ASCollectionNode实现智能无线滚动";
 			sourceTree = "<group>";
@@ -673,11 +701,13 @@
 				87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */,
 				873E28922073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m in Sources */,
 				873E287C2073298800BE6144 /* ASStackLayoutDemoView.m in Sources */,
+				8700CAEB207CABE6008B86A0 /* postNode.m in Sources */,
 				873E287620731C0F00BE6144 /* TextureLayoutTestViewController.m in Sources */,
 				8722BFEC2068962A00FBB272 /* WJCollectionViewCell.m in Sources */,
 				8746E7542074CC1C00371AD8 /* ASVideoNodeInASTableNodeViewController.m in Sources */,
 				873E288820736D7700BE6144 /* PhotoWithOutsetIconOverlayViewController.m in Sources */,
 				873E289A20737FC200BE6144 /* CornerLayoutExampleViewController.m in Sources */,
+				8700CAE1207C524E008B86A0 /* LoadingNode.m in Sources */,
 				872A6D672079FED800FFF8D8 /* TextStyles.m in Sources */,
 				873E28A02073807100BE6144 /* UserProfileSampleViewController.m in Sources */,
 				8799374D207B698400BCCDBE /* infiniteScorllViewController.m in Sources */,
@@ -695,7 +725,9 @@
 				8737351620648DF800681CD8 /* main.m in Sources */,
 				873E2881207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
+				8700CAE8207CA01C008B86A0 /* addLinkInTextViewController.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
+				8700CAE4207C8DF8008B86A0 /* BlurbNode.m in Sources */,
 				87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */,
 				8746E74F2074C81F00371AD8 /* DKNightVersionViewController.m in Sources */,
 				872A6D5B2079C88C00FFF8D8 /* SocialAppLayoutViewController.m in Sources */,

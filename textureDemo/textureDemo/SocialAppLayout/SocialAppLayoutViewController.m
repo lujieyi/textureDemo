@@ -20,6 +20,7 @@
 - (instancetype)init
 {
     ASDisplayNode *node = [ASDisplayNode new];
+    
     self = [super initWithNode:node];
     if (self) {
         self.node.backgroundColor = [UIColor whiteColor];

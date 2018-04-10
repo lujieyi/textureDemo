@@ -7,6 +7,6 @@
 //
 
 
-@interface infiniteScorllViewController : ASViewController
+@interface infiniteScorllViewController : UIViewController
 
 @end
