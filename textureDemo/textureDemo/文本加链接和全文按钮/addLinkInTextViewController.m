@@ -14,6 +14,7 @@
 @property (nonatomic,strong)ASTextNode *postNode;
 @property (nonatomic,strong)ASEditableTextNode *attTV;
 @property (nonatomic,strong)ASTextNode *postNode2;
+@property (nonatomic) bool enable;
 @end
 
 @implementation addLinkInTextViewController
@@ -25,11 +26,22 @@
     _postNode2 = [postNode new];
     [self.view addSubnode:_postNode2];
     _postNode2.frame = CGRectMake(20, 300, 350, 300);
-    _postNode2.backgroundColor = [UIColor lightGrayColor];
+    _postNode2.backgroundColor = [UIColor whiteColor];
 
 }
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [UIView animateWithDuration:1 delay:0 usingSpringWithDamping:0.4 initialSpringVelocity:0.1 options:kNilOptions animations:^{
+        //        _postNode2.subnodeTransform = CATransform3DTranslate(_postNode2.subnodeTransform, 10, 10, 10);
+        _postNode2.transform = !_enable ? CATransform3DTranslate(_postNode2.transform, 0, 100, 10) : CATransform3DTranslate(_postNode2.transform, 0, -100, 10);
+        _enable = !_enable;
+        
+    } completion:nil];
 
-
+//    [_postNode2 setFrame:CGRectMake(0, 0, 100, 100)];//会触发断言，只有当transform 为 identity时frame才起作用。
+//    _postNode2.style.preferredSize = CGSizeMake(100, 100);
+//    _postNode2.style.layoutPosition = CGPointMake(0, 0);//以上两个没有没有反应，看来只能通过transition和transform实现动画了。
+    [_postNode2 setHighlightRange:NSMakeRange(0, 15) animated:YES];
+}
 
 -(void)addLinkInText{
     [super viewDidLoad];

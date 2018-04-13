@@ -34,6 +34,7 @@
         imageNode.frame = imageRect;
         self.placeholderEnabled = YES;
         self.userInteractionEnabled = YES;
+        self.passthroughNonlinkTouches = YES;
         
         //添加一个UI控件
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
@@ -56,7 +57,7 @@
     [self addSubnode:imageNode];
     imageNode.frame = frame;
     
-    [self setHighlightRange:NSMakeRange(0, 10) animated:YES];
+    
     
     //一下方法找到几个后会出错，现在还没有找到原因
     //    [detector enumerateMatchesInString:self.attributedText.string options:kNilOptions range:NSMakeRange(0, self.attributedText.length) usingBlock:^(NSTextCheckingResult * _Nullable result, NSMatchingFlags flags, BOOL * _Nonnull stop) {
