@@ -41,6 +41,11 @@
 		872A6E6F207A149500FFF8D8 /* icon_ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872A6E5D207A149500FFF8D8 /* icon_ios@2x.png */; };
 		872A6E72207A16D000FFF8D8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 872A6E71207A16D000FFF8D8 /* Post.m */; };
 		87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 87332CD0206E3E2100918014 /* HeaderCellNode.m */; };
+		873695042084859D004E180F /* ChartsExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873695032084859D004E180F /* ChartsExamplesViewController.m */; };
+		87369506208488F1004E180F /* chartsExamplesVCName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87369505208488F1004E180F /* chartsExamplesVCName.plist */; };
+		8736950C208496C9004E180F /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8736950B208496C9004E180F /* BarChartViewController.m */; };
+		8736950F208496D9004E180F /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8736950E208496D9004E180F /* PieChartViewController.m */; };
+		87369512208496EF004E180F /* HorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87369511208496EF004E180F /* HorizontalBarChartViewController.m */; };
 		8737350520648DF800681CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737350420648DF800681CD8 /* AppDelegate.m */; };
 		8737350820648DF800681CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737350720648DF800681CD8 /* ViewController.m */; };
 		8737350B20648DF800681CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8737350920648DF800681CD8 /* Main.storyboard */; };
@@ -76,7 +81,7 @@
 		87FE6927206B3F6C003F16EB /* ASCollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE6926206B3F6C003F16EB /* ASCollectionViewTestViewController.m */; };
 		87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE692A206B3FA3003F16EB /* UICollectionViewTestViewController.m */; };
 		87FE692E206B810B003F16EB /* WJActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FE692D206B810B003F16EB /* WJActivityView.m */; };
-		99469DE7609A26D74B7F2460 /* libPods-textureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D30C19D64865AAE2AC022 /* libPods-textureDemo.a */; };
+		B80476BA6A4202571B796107 /* Pods_textureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88CE548725140EBC251FC53 /* Pods_textureDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +136,16 @@
 		872A6E71207A16D000FFF8D8 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		87332CCF206E3E2100918014 /* HeaderCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderCellNode.h; sourceTree = "<group>"; };
 		87332CD0206E3E2100918014 /* HeaderCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderCellNode.m; sourceTree = "<group>"; };
+		873695022084859D004E180F /* ChartsExamplesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartsExamplesViewController.h; sourceTree = "<group>"; };
+		873695032084859D004E180F /* ChartsExamplesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartsExamplesViewController.m; sourceTree = "<group>"; };
+		87369505208488F1004E180F /* chartsExamplesVCName.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = chartsExamplesVCName.plist; sourceTree = "<group>"; };
+		8736950A208496C9004E180F /* BarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		8736950B208496C9004E180F /* BarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		8736950D208496D9004E180F /* PieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		8736950E208496D9004E180F /* PieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		87369510208496EF004E180F /* HorizontalBarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		87369511208496EF004E180F /* HorizontalBarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarChartViewController.m; sourceTree = "<group>"; };
+		8736951420849D51004E180F /* ChartsBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartsBridgeHeader.h; sourceTree = "<group>"; };
 		8737350020648DF800681CD8 /* textureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8737350320648DF800681CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8737350420648DF800681CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,7 +212,7 @@
 		87FE692C206B810B003F16EB /* WJActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJActivityView.h; sourceTree = "<group>"; };
 		87FE692D206B810B003F16EB /* WJActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJActivityView.m; sourceTree = "<group>"; };
 		9D0EF17172154C3A5833F595 /* Pods-textureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CF7D30C19D64865AAE2AC022 /* libPods-textureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-textureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88CE548725140EBC251FC53 /* Pods_textureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_textureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99469DE7609A26D74B7F2460 /* libPods-textureDemo.a in Frameworks */,
+				B80476BA6A4202571B796107 /* Pods_textureDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +291,47 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		8736950120848553004E180F /* chartsExamples */ = {
+			isa = PBXGroup;
+			children = (
+				873695022084859D004E180F /* ChartsExamplesViewController.h */,
+				873695032084859D004E180F /* ChartsExamplesViewController.m */,
+				87369505208488F1004E180F /* chartsExamplesVCName.plist */,
+				8736951420849D51004E180F /* ChartsBridgeHeader.h */,
+				8736950920849669004E180F /* BarChartViewController */,
+				8736950820849662004E180F /* PieChartViewController */,
+				87369507208490B3004E180F /* HorizontalBarChartViewController */,
+			);
+			path = chartsExamples;
+			sourceTree = "<group>";
+		};
+		87369507208490B3004E180F /* HorizontalBarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87369510208496EF004E180F /* HorizontalBarChartViewController.h */,
+				87369511208496EF004E180F /* HorizontalBarChartViewController.m */,
+			);
+			path = HorizontalBarChartViewController;
+			sourceTree = "<group>";
+		};
+		8736950820849662004E180F /* PieChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8736950D208496D9004E180F /* PieChartViewController.h */,
+				8736950E208496D9004E180F /* PieChartViewController.m */,
+			);
+			path = PieChartViewController;
+			sourceTree = "<group>";
+		};
+		8736950920849669004E180F /* BarChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8736950A208496C9004E180F /* BarChartViewController.h */,
+				8736950B208496C9004E180F /* BarChartViewController.m */,
+			);
+			path = BarChartViewController;
+			sourceTree = "<group>";
+		};
 		873734F720648DF800681CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +369,7 @@
 				8737350720648DF800681CD8 /* ViewController.m */,
 				8722BFF02068A0DA00FBB272 /* WJViewModel.h */,
 				8722BFF12068A0DA00FBB272 /* WJViewModel.m */,
+				8736950120848553004E180F /* chartsExamples */,
 				8700CAE5207C9FDB008B86A0 /* 文本加链接和全文按钮 */,
 				8799374A207B68D900BCCDBE /* ASCollectionNode实现智能无线滚动 */,
 				872A6D582079C86E00FFF8D8 /* SocialAppLayout */,
@@ -523,7 +580,7 @@
 		C6D29F4BB637AAB49E00659F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D30C19D64865AAE2AC022 /* libPods-textureDemo.a */,
+				B88CE548725140EBC251FC53 /* Pods_textureDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -619,6 +676,7 @@
 				872A6E6B207A149500FFF8D8 /* icon_liked@2x.png in Resources */,
 				872A6D572079BD3E00FFF8D8 /* simon.mp4 in Resources */,
 				872A6E63207A149500FFF8D8 /* icon_ios.png in Resources */,
+				87369506208488F1004E180F /* chartsExamplesVCName.plist in Resources */,
 				872A6E6D207A149500FFF8D8 /* icon_comment@2x.png in Resources */,
 				872A6E69207A149500FFF8D8 /* icon_comment.png in Resources */,
 				8737351D2064D0B100681CD8 /* sampleContentPage.html in Resources */,
@@ -634,9 +692,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DKNightVersion/DKNightVersion.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKNightVersion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -650,14 +727,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-textureDemo/Pods-textureDemo-resources.sh",
-				"${PODS_ROOT}/DKNightVersion/DKNightVersion/ColorTable/DKColorTable.txt",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKColorTable.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaboolaVIewResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +771,7 @@
 				873E2895207378D200BE6144 /* FlexibleSeparatorSurroundingContentView.m in Sources */,
 				874761B32071C7D9004F4023 /* ItemNode.m in Sources */,
 				875C53C0206D026F006B064B /* ASPagerNodeViewController.m in Sources */,
+				873695042084859D004E180F /* ChartsExamplesViewController.m in Sources */,
 				87FE6923206B3F19003F16EB /* TextureTestASNetworkImageNodeViewController.m in Sources */,
 				873E28922073788700BE6144 /* FlexibleSeparatorSurroundingContentViewController.m in Sources */,
 				873E287C2073298800BE6144 /* ASStackLayoutDemoView.m in Sources */,
@@ -717,16 +791,19 @@
 				871ABE8B207B08B5004AC5EF /* CommentsNode.m in Sources */,
 				873E28792073288500BE6144 /* ASStackLayoutSpecViewController.m in Sources */,
 				8737350820648DF800681CD8 /* ViewController.m in Sources */,
+				87369512208496EF004E180F /* HorizontalBarChartViewController.m in Sources */,
 				87FE692B206B3FA3003F16EB /* UICollectionViewTestViewController.m in Sources */,
 				872A6D522079AB9700FFF8D8 /* ASVideoNodeViewController.m in Sources */,
 				87332CD1206E3E2100918014 /* HeaderCellNode.m in Sources */,
 				872A6E72207A16D000FFF8D8 /* Post.m in Sources */,
 				873E288B20736D8F00BE6144 /* PhotoWithOutsetIconOverlayView.m in Sources */,
 				8737351620648DF800681CD8 /* main.m in Sources */,
+				8736950F208496D9004E180F /* PieChartViewController.m in Sources */,
 				873E2881207362FE00BE6144 /* PhotoWithInsetTextOverlayViewController.m in Sources */,
 				8722BFEF206896D400FBB272 /* WJCollectionViewSupplementaryCellCollectionViewCell.m in Sources */,
 				8700CAE8207CA01C008B86A0 /* addLinkInTextViewController.m in Sources */,
 				8737350520648DF800681CD8 /* AppDelegate.m in Sources */,
+				8736950C208496C9004E180F /* BarChartViewController.m in Sources */,
 				8700CAE4207C8DF8008B86A0 /* BlurbNode.m in Sources */,
 				87FE691E206B3E9B003F16EB /* TaboolaTestViewController.m in Sources */,
 				8746E74F2074C81F00371AD8 /* DKNightVersionViewController.m in Sources */,
@@ -868,8 +945,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07FE288E3A5DBB763AC71204 /* Pods-textureDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KVX8FV3VE3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/textureDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = textureDemo/Info.plist;
@@ -884,8 +963,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D0EF17172154C3A5833F595 /* Pods-textureDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KVX8FV3VE3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/textureDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = textureDemo/Info.plist;
